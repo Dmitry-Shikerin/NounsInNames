@@ -13,10 +13,10 @@ namespace Существительные_в_именах_классов_и_об�
         }
     }
 
-    class PlayerData { }
+    class PlayerSettings { }
     class GunController { }
     class FollowTarget { }
-    class ReadingUnit
+    class UnitProvider
     {
         public IReadOnlyCollection<Unit> Units { get; private set; }
     }
